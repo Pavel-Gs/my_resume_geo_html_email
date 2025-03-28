@@ -11,6 +11,26 @@
 </head>
 
 <body>
+	<!-- Force colors in Outlook -->
+	<style>
+    	@media screen and (prefers-color-scheme: dark) {
+        	body,
+        	table {
+           		color-scheme: light !important;
+            	forced-color-adjust: none !important;
+        	}
+    	}
+	</style>
+	<!-- Outlook-specific conditionals -->
+	<!--[if mso]>
+    	<style>
+        	body, table, td, a {
+            	color: #000000 !important;
+            	background-color: #ffffff !important;
+        	}
+    	</style>
+	<![endif]-->
+
 	<!-- background-color: #dcd4c5; -->
 	<table cellspacing='0' cellpadding='0' border='0' align='center' style='
 	background: linear-gradient(rgba(228, 211, 180, 0.65), rgba(0, 0, 0, 0.65)), url("https://html-quotes.netlify.app/resources/background.png") center / cover no-repeat;
@@ -34,7 +54,7 @@
 						background: #255f80;
 						color: #edecea;
 						text-align: left;
-						border-left: 16px solid #255f80;
+						padding-left: 16px;
 						'>
 							<a href='https://github.com/Pavel-Gs' target='_blank' style='text-decoration: none; color: #255f80'>
 								<img src='https://pg-geomatics-html.netlify.app/resources/socials/git.jpg'>
@@ -47,10 +67,10 @@
 						background: #255f80;
 						color: #edecea;
 						text-align: right;
-						border-right: 16px solid #255f80;
+						padding-right: 16px;
 						'>
 							<span>&nbsp</span><br>
-							<span style='font-weight: bold; font-size: 1.25rem;'>GEOMATICS ENGINEER</span><br>
+							<span style='font-weight: bold; font-size: 1.25rem;'>GEOMATICS TECH. / LST</span><br>
 							<span style='color: #E3A427;'>Pavel Generalov</span><br>
 						</td>
 					</tr> <!-- HEADER -->
@@ -60,7 +80,7 @@
 						color: #E3A427;
 						min-width: 150px;
 						text-align: center;
-						border-top: 10px solid #edecea;
+						padding-top: 10px;
 						'>
 							<span style='font-weight: bold; font-size: 1.25rem; text-shadow: 1px 1px 1px #6e6e6e;'>MY CAREER</span>
 						</td>
@@ -75,22 +95,43 @@
 						</td>
 					</tr> <!-- CAREER HEADER -->
 					<tr style='text-align: left; color: #6e6e6e;'> <!-- CAREER ROW -->
-						<td colspan='3' style='border-left: 16px solid #edecea; border-right: 16px solid #edecea;'>
+						<td colspan='3' style='padding-left: 16px; padding-right: 16px;'>
 							<br>
-							<p>Applying for: online community manager (volunteer).</p>
-							<br>
-							<p style='text-align: justify;'>I am a geomatics technologist/land surveyor (since 2008), working daily with geospatial data, equipment, software and various web GIS apps. Web development  - is my other hobby; you can find the link to some of my projects down in the "coding" section.</p>
-							<br>
-							<p><span style='font-weight: bold;'>OKANAGAN VALLEY</span><br>
-							<span style='font-weight: bold; text-align: justify;'>- (cadastral industry)</span> CAD technician, geomatics technologist / LST; current</p>
-							<p><span style='font-weight: bold;'>METRO VANCOUVER AND LOWER MAINLAND</span><br>
-							<span style='font-weight: bold; text-align: justify;'>- (self-employed)</span> geomatics technologist / CAD technician; 2018-2023 <a href='https://pg-geomatics-html.netlify.app/resources/some_of_my_BCprojects.jpg' target='_blank' style='text-decoration: none; color: #edecea'><img src='https://pg-geomatics-html.netlify.app/resources/links/link3.jpg'></a><br>
-							<span style='font-weight: bold; text-align: justify;'>- (cadastral industry)</span> assistant, party chief, CAD technician; 2014-2021</p>
-							<p><span style='font-weight: bold;'>OUTSIDE CANADA</span><br>
-							<span style='font-weight: bold; text-align: justify;'>- (high-rise industry)</span> geomatics engineer / CAD technician; 2011-2013<br>
-							<span style='font-weight: bold; text-align: justify;'>- (civil industry)</span> geomatics technician; 2009-2011<br>
-							<span style='font-weight: bold; text-align: justify;'>- (cadastral industry)</span> survey technician; 2008-2009</p>
-							<p style='font-size: 0.75rem; text-align: center; font-style: italic;'>(for more detailed info, please refer to my LinkedIn profile - the link is in the header)</p>
+							<p><span style='font-weight: bold;'>REMOTE</span></p>
+								<p><span style='font-weight: bold;'> • ISAAK, OSMAN & ASSOCIATES BC LAND SURVEYORS</span>
+									<p><span style='font-weight: bold;'>(GEOMATICS AND CAD TECHNOLOGIST)</span></p>
+									<p style='text-align: justify;'>Performing full-scale field and office technologist duties, including data processing, checking, drafting, and preparing jobs for field crews.
+									(office/field; part-time), (contract) April 2024 - Present</p></p>
+									<br>
+							<p><span style='font-weight: bold;'>OKANAGAN VALLEY</span></p>
+								<p><span style='font-weight: bold;'>• FERGUSON LAND SURVEYING & GEOMATICS</span>
+									<p><span style='font-weight: bold;'>(GEOMATICS AND CAD TECHNOLOGIST / LST)</span></p>
+									<p style='text-align: justify;'>Drafting georeferenced lot linework pre-calcs using existing legal plans and web GIS applications; calculating setbacks according to municipal bylaws; integrating third-party architectural drawings; property line resolutions (including First Nation Lands); preparing, checking and processing all types of fieldwork; liaising with clients; processing GNSS vectors and total station raw data; drafting small/mid-scale topographic plans, posting plans, proposed subdivision plans, as-builts and certificates.
+									(office; full-time) July 2023 - February 2024</p></p>
+									<br>
+							<p><span style='font-weight: bold;'>METRO VANCOUVER AND LOWER MAINLAND</span></p>
+								<p><span style='font-weight: bold;'>• ISAAK, OSMAN & ASSOCIATES BC LAND SURVEYORS</span>
+									<p><span style='font-weight: bold;'>(GEOMATICS AND CAD TECHNOLOGIST)</span></p>
+									<p style='text-align: justify;'>Drafting georeferenced lot linework pre-calcs using existing legal plans; calculating setbacks according to municipal bylaws; integrating third-party architectural drawings; property line resolutions; preparing, checking and processing all types of fieldwork; conducting monitoring jobs and all types of fieldwork; checking/processing GNSS vectors and total station raw data; drafting small/mid-scale topographic plans, posting plans, as-builts and certificates.
+									(office/field; full-time), (contract) May 2018 - March 2023</p></p>
+									<br>
+								<p><span style='font-weight: bold;'>• LNLS - METRO VANCOUVER LAND SURVEYORS</span>
+									<p><span style='font-weight: bold;'>(SURVEY ASSISTANT, PARTY CHIEF, DRAFTER )</span></p>
+									<p style='text-align: justify;'>Involved primarily in the cadastral industry, I was responsible for conducting small-scale topographic surveys, residential layouts and drafting topo-plans.
+									(office/field; full-time) March 2014 - September 2017</p></p>
+									<br>
+							<p><span style='font-weight: bold;'>MOSCOW</span></p>
+								<p><span style='font-weight: bold;'>• FLAT & CO</span>
+									<p><span style='font-weight: bold;'>(GEOMATICS AND CAD ENGINEER)</span></p>
+									<p style='text-align: justify;'>Full geodetic support for high-rise construction from zero-cycle to full completion, including creation of corresponding CAD projects and drawings, control networks, conducting all types of field layouts, as-builts, setting benchmarks for each floor, creating surfaces, profiles and calculating volumes.
+									(on-site; full-time) August 2011 - September 2013</p></p>
+									<br>
+								<p><span style='font-weight: bold;'>• TRANS-STROI</span>
+									<p><span style='font-weight: bold;'>(GEOMATICS TECHNICIAN)</span></p>
+									<p style='text-align: justify;'>Geodetic support for various types of small/mid-scale civil projects, including road and pipeline construction. Creating surfaces, profiles, calculating volumes, preparing as-builts.
+									(office/field; part-time) March 2009 - March 2011</p></p>
+									<br>
+							<p style='font-size: 0.75rem; text-align: center; font-style: italic;'>(for more info, please refer to my LinkedIn profile - the link is in the header)</p>
 							<br>
 						</td>
 					</tr> <!-- CAREER ROW -->
@@ -103,33 +144,33 @@
 						min-width: 150px;
 						color: #E3A427;
 						text-align: center;
-						border-top: 10px solid #f9f9f9;
+						padding-top: 10px;
 						'>
 							<span style='font-weight: bold; font-size: 1.25rem; text-shadow: 1px 1px 1px #6e6e6e;'>SOFT / APPS</span>
 						</td>
 						<!-- box-shadow: inset 2px -6px 6px -6px rgba(99, 72, 17, 0.35); border-bottom-left-radius: 5px; -->
 						<!-- box-shadow: inset 2px -6px 6px -6px rgba(99, 72, 17, 0.35); -->
-						<td style='background: #edecea; border-top: 10px solid #edecea;'></td>
-						<td style='background: #edecea; border-top: 10px solid #edecea;'></td>
+						<td style='background: #edecea; padding-top: 10px'></td>
+						<td style='background: #edecea; padding-top: 10px'></td>
 					</tr> <!-- SOFTWARE HEADER -->
 					<tr> <!-- SOFTWARE ROW -->
 						<td colspan='3' style='
 						background: #f9f9f9;
 						color: #6e6e6e;
 						text-align: left;
-						border-left: 16px solid #f9f9f9;
-						border-right: 16px solid #f9f9f9;
+						padding-left: 16px;
+						padding-right: 16px;
 						'>
 							<br>
-							<p style='text-align: justify;'><span style='font-weight: bold;'>PARCELMAP BC <a href='https://www.ltsa.ca/' target='_blank' style='text-decoration: none; color: #6e6e6e; font-weight: bold;'>(AT LTSA)</a>: </span>land title research, review land-related documents, upload UTM-scaled lot linework datasets from CAD, property assessments</p>
-							<p style='text-align: justify;'><span style='font-weight: bold;'>VARIOUS MUNICIPAL GIS: </span>a regular user: property research and assessments</p>
-							<p style='text-align: justify;'><span style='font-weight: bold;'>QGIS: </span>used primarily for the creation of georeferenced background imagery for drafting and fieldwork purposes</p>
-							<p style='text-align: justify;'><span style='font-weight: bold;'>ARCGIS: </span>currently taking ESRI ArcGIS pro/ArcGIS online courses</p>
-							<p style='text-align: justify;'><span style='font-weight: bold;'>LEICA INFINITY: </span>review GNSS and total station data quality and field-coded linework</p>
-							<p style='text-align: justify;'><span style='font-weight: bold;'>STARNET: </span>post-process GNSS vectors and conventional survey data, adjustments (least-squares), quality assessment and integrations</p>
-							<p style='text-align: justify;'><span style='font-weight: bold;'>AUTOCAD (MSCAD): </span>lot linework precalcs, posting and topo plans, boundary resolutions, integration of 3rd-party architectural plans, volume calculations, surfaces, regular job prep, etc...</p>
-							<p style='text-align: justify;'><span style='font-weight: bold;'>CIVIL 3D / LAND DESKTOP: </span>maintain construction projects, volume calculations, surfaces</p>
-							<p style='font-size: 0.75rem; text-align: center; font-style: italic;'>(other soft: VS Code, Visual Studio, MSembedded CAD, Carlson, MS Office, Photoshop, Google Earth Pro)</p>
+							<p style='text-align: justify;'><span style='font-weight: bold;'>• AUTOCAD (MSCAD): </span>3D and 2D workflow; lot linework pre-calcs; draft posting plans, topographic plans, certificates, as-builts; boundary resolutions; integration of third-party architectural plans; creating surfaces, profiles and calculating volumes.</p>
+							<p style='text-align: justify;'><span style='font-weight: bold;'>• CIVIL 3D: </span>Maintenance and support of high-rise and civil construction projects, drafting as-builts, creating surfaces, profiles and calculating volumes.</p>
+							<p style='text-align: justify;'><span style='font-weight: bold;'>• STARNET: </span>Process and adjust GNSS vectors and total station raw data, network integrations and quality assessments.</p>
+							<p style='text-align: justify;'><span style='font-weight: bold;'>• LEICA INFINITY: </span>Check GNSS and total station field-measured data quality, extract field-coded linework.</p>
+							<p style='text-align: justify;'><span style='font-weight: bold;'>• QGIS: </span>Used primarily for the creation of georeferenced background imagery for drafting and fieldwork purposes.</p>
+							<p style='text-align: justify;'><span style='font-weight: bold;'>• PARCELMAP BC: </span>Land title research, review land-related documents, upload UTM-scaled lot linework datasets from CAD.</p>
+							<p style='text-align: justify;'><span style='font-weight: bold;'>• VARIOUS MUNICIPAL GIS: </span>Property research and assessments.</p>
+							<p style='text-align: justify;'><span style='font-weight: bold;'>• ArcGIS API for JavaScript: </span>Integrating some of the ArcGIS features into my web-apps</p>
+							<p style='font-size: 0.75rem; text-align: center; font-style: italic;'>(other soft: VSCode, Visual Studio, MSEmbedded CAD, Carlson, MS Office, Photoshop, Google Earth Pro)</p>
 							<br>
 						</td>
 					</tr> <!-- SOFTWARE ROW -->
@@ -142,27 +183,26 @@
 						min-width: 150px;
 						color: #E3A427;
 						text-align: center;
-						border-top: 10px solid #edecea;
+						padding-top: 10px;
 						'>
 							<span style='font-weight: bold; font-size: 1.25rem; text-shadow: 1px 1px 1px #6e6e6e;'>EQUIPMENT</span>
 						</td>
 						<!-- box-shadow: inset 2px -6px 6px -6px rgba(99, 72, 17, 0.35); border-bottom-left-radius: 5px; -->
 						<!-- box-shadow: inset 2px -6px 6px -6px rgba(99, 72, 17, 0.35); -->
-						<td style='background: #f9f9f9; border-top: 10px solid #f9f9f9;'></td>
-						<td style='background: #f9f9f9; border-top: 10px solid #f9f9f9;'></td>
+						<td style='background: #f9f9f9; padding-top: 10px'></td>
+						<td style='background: #f9f9f9; padding-top: 10px'></td>
 					</tr> <!-- EQUIPMENT HEADER -->
 					<tr> <!-- EQUIPMENT ROW -->
 						<td colspan='3' style='
 						background: #edecea;
 						color: #6e6e6e;
 						text-align: left;
-						border-left: 16px solid #edecea;
-						border-right: 16px solid #edecea;
+						padding-left: 16px;
+						padding-right: 16px;
 						'>
 							<br>
-							<p style='text-align: justify;'>work with: robotic and manual total stations, GNSS (RTK), levels (digital/optical)<br>
-								(Leica, Trimble, Nikon, Pentax, Topcon, Sokkia)</p>
-								<p style='font-size: 0.75rem; text-align: center; font-style: italic;'>(data collector soft: Leica Captivate, SurvCE, FieldGenius, Magnet)</p>
+							<p style='text-align: justify;'><span style='font-weight: bold;'>FIELD EQUIPMENT: </span>Robotic total stations (Leica), manual total stations (Trimble, Nikon, Pentax, Topcon, Sokkia), GNSS (RTK) (Leica), digital levels (Leica), optical levels.</p><br>
+							<p style='text-align: justify;'><span style='font-weight: bold;'>FIELD SOFTWARE: </span>Leica Captivate (Leica), SurvCE (Carlson), Field Genius (MicroSurvey), Magnet (Sokkia).</p><br>
 							<br>
 						</td>
 					</tr> <!-- EQUIPMENT ROW -->
@@ -175,26 +215,25 @@
 						min-width: 150px;
 						color: #E3A427;
 						text-align: center;
-						border-top: 10px solid #f9f9f9;
+						padding-top: 10px;
 						'>
 							<span style='font-weight: bold; font-size: 1.25rem; text-shadow: 1px 1px 1px #6e6e6e;'>CODING</span>
 						</td>
 						<!-- box-shadow: inset 2px -6px 6px -6px rgba(99, 72, 17, 0.35); border-bottom-left-radius: 5px; -->
 						<!-- box-shadow: inset 2px -6px 6px -6px rgba(99, 72, 17, 0.35); -->
-						<td style='background: #edecea; border-top: 10px solid #edecea;'></td>
-						<td style='background: #edecea; border-top: 10px solid #edecea;'></td>
+						<td style='background: #edecea; padding-top: 10px'></td>
+						<td style='background: #edecea; padding-top: 10px'></td>
 					</tr> <!-- CODING HEADER -->
 					<tr> <!-- CODING ROW -->
 						<td colspan='3' style='
 						background: #f9f9f9;
 						color: #6e6e6e;
 						text-align: left;
-						border-left: 16px solid #f9f9f9;
-						border-right: 16px solid #f9f9f9;
+						padding-left: 16px;
+						padding-right: 16px;
 						'>
 							<br>
-							<p style='text-align: justify;'><span style='font-weight: bold;'>WORK WITH: </span>React (hooks, router, styled-components), JavaScript, SASS, CSS, HTML, HTML-emails (HEML framework, Elastic Email), GIT</p>
-							<p style='text-align: justify;'><span style='font-weight: bold;'>SOME EXPOSURE TO: </span>C++, C#, Python</p>
+							<p style='text-align: justify;'><span style='font-weight: bold;'>Hobbyist full-stack web developer: </span>React, NextJS, JavaScript, TypeScript, Styled-Components, CSS, SASS, TailwindCSS, HTML, HTML-emails.</p>
 							<p style='text-align: justify;'><span style='font-weight: bold;'>MY WEB PROJECTS: </span>
 								<a href='https://pgs-portfolio.netlify.app/' target='_blank' style='text-decoration: none; color: #6e6e6e'>
 									link
@@ -216,22 +255,22 @@
 						min-width: 150px;
 						color: #E3A427;
 						text-align: center;
-						border-top: 10px solid #edecea;
+						padding-top: 10px;
 						'>
 							<span style='font-weight: bold; font-size: 1.25rem; text-shadow: 1px 1px 1px #6e6e6e;'>EDUCATION</span>
 						</td>
 						<!-- box-shadow: inset 2px -6px 6px -6px rgba(99, 72, 17, 0.35); border-bottom-left-radius: 5px; -->
 						<!-- box-shadow: inset 0 -6px 6px -6px rgba(99, 72, 17, 0.35); -->
-						<td style='background: #f9f9f9; border-top: 10px solid #f9f9f9;'></td>
-						<td style='background: #f9f9f9; border-top: 10px solid #f9f9f9;'></td>
+						<td style='background: #f9f9f9; padding-top: 10px;'></td>
+						<td style='background: #f9f9f9; padding-top: 10px;'></td>
 					</tr> <!-- EDUCATION HEADER -->
 					<tr> <!-- EDUCATION ROW -->
 						<td colspan='3' style='
 						background: #edecea;
 						color: #6e6e6e;
 						text-align: left;
-						border-left: 16px solid #edecea;
-						border-right: 16px solid #edecea;
+						padding-left: 16px;
+						padding-right: 16px;
 						'>
 							<br>
 							<p>
@@ -256,19 +295,6 @@
 									<img src='https://pg-geomatics-html.netlify.app/resources/links/link3.jpg'>
 								</a><span style='font-weight: bold;'>&nbspMIIGAiK: </span> bachelor's degree in geomatics/cadastral
 							</p>
-							<p>
-								<a href='https://www.esri.com/' target='_blank' style='text-decoration: none; color: #edecea'>
-									<img src='https://pg-geomatics-html.netlify.app/resources/links/link3.jpg'>
-								</a><span style='font-weight: bold;'>&nbspESRI: </span> currently taking courses
-							</p>
-							<p>
-								<a href='https://www.codecademy.com/' target='_blank' style='text-decoration: none; color: #edecea'>
-									<img src='https://pg-geomatics-html.netlify.app/resources/links/link3.jpg'>
-								</a><span style='font-weight: bold;'>&nbspCODECADEMY: </span> web development
-								<a href='https://www.codecademy.com/profiles/pavelGeneralov3188521613/certificates/5f85dd867b67b60014ac9ea3' target='_blank' style='text-decoration: none; color: #edecea'>
-									<img src='https://pg-geomatics-html.netlify.app/resources/links/link3.jpg'>
-								</a>
-							</p>
 							<br>
 						</td>
 					</tr> <!-- EDUCATION ROW -->
@@ -282,7 +308,7 @@
 						text-align: left;
 						border-left: 16px solid #255f80;
 						'>
-							<br><span style='font-size: 0.75rem; font-style: italic;'>Kelowna, BC</span><br><br>
+							<br><span style='font-size: 0.75rem; font-style: italic;'>Vancouver, BC</span><br><br>
 						</td>
 						<td colspan='1' style='
 						width: 33%;
